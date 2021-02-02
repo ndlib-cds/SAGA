@@ -120,7 +120,7 @@ shinyServer(
       # These instructions can be used as a welcome section to explain your app
       box(
         title = "Instructions",
-        h4("Welcome to taipan!"),
+        h4("Welcome to SAGA!"),
         p("The", strong("Scene"),
           "section contains questions regarding the whole image.
           These answers can be saved by clicking the Save Image button or continuing to the next image."),

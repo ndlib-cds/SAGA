@@ -1,4 +1,4 @@
 library(testthat)
-library(taipan)
+library(saga)
 
 test_check("taipan")

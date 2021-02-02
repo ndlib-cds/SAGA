@@ -105,8 +105,8 @@ buildTaipan <- function(questions, images, appdir, launch = TRUE, overwrite = FA
   appdir <- tools::file_path_as_absolute(appdir)
 
   # WRITE APPDIR
-  app_files <- list.files(file.path(system.file(package="taipan"), "app"))
-  file.copy(file.path(system.file(package="taipan"), "app", app_files), appdir, recursive = TRUE)
+  app_files <- list.files(file.path(system.file(package="saga"), "app"))
+  file.copy(file.path(system.file(package="saga"), "app", app_files), appdir, recursive = TRUE)
 
   # SAVE QUESTIONS
   dir.create(file.path(appdir, "data"))
